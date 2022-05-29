@@ -38,7 +38,7 @@ void Exam :: set_marks(float m1, float m2){
     }
     
     class Result : public Exam{
-        float percenetage;
+        float percentage;
         public:
         void display(){
             get_roll_number();
